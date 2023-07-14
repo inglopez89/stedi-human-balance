@@ -29,4 +29,4 @@ TBLPROPERTIES (
   'objectCount'='1', 
   'recordCount'='999', 
   'sizeKey'='288893', 
-  'typeOfData'='file')
+)
