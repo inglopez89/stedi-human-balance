@@ -82,7 +82,7 @@ Athena query result
 
 * Athena query result accelerometer
 
-![Accelerometer_trusted](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%208.29.30%20a.m..png)
+![Accelerometer_trusted](./image/accelerometer_trusted.png)
 
 
 * Spark glue job customer curated
