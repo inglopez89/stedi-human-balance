@@ -50,20 +50,20 @@ Create glue crawler for sync date from datalake zone to glue table
 ![Accelerometer glue crawler](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%201.13.00%20a.m..png)
 
 
-### Preview Customer & Accelerometer
+### Preview Customer & Accelerometer from landing zone in Athena
 
 Athena query result
 
-* Accelerometer
+* Accelerometer Landing
 
 ![Accelerometer](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%201.21.53%20a.m..png)
 
 
-* Customer
+* Customer Landing
 
 ![Customer](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%2011.16.59%20a.m..png)
 
-Making distinct to field sharewithresearchofdate from table customer
+Making distinct to field sharewithresearchofdate from table customer from landing
 
 ![custumer_landing](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%2012.30.16%20p.m..png)
 
