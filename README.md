@@ -1,3 +1,9 @@
+# This is the steps for STEDI project 
+
+## Create IAM Role for read from data lake s3 with glue jobs
+
+![iam_role](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%204.03.31%20a.m..png)
+
 ## Copy files from stedi project starter to camilo-Data-Lake landing zone for accelerometer, customer and step_trainer
 
 
@@ -60,7 +66,7 @@ Athena query result
 ### Customer glue job execution
 
 * Spark glue Job Customer
-[Spark_glue_job](./glue/customer_trusted-etl-spark.py)
+[Spark_glue_job_customer_trusted](./glue/customer_trusted-etl-spark.py)
 
 ![Customer_job_execution](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%202.02.45%20a.m..png)
 
@@ -71,9 +77,17 @@ Athena query result
 
 * Spark glue job customer trusted
 
-[Spark_glue_job](./glue/customer_curated-etl-spark.py)
+[Spark_glue_job_customer_curated](./glue/customer_curated-etl-spark.py)
 
 ![customer_curated_execution_job](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%203.49.00%20a.m..png)
 
 * Athena query result customer curated
 ![customer_curated](./image/customer_curated.png)
+
+* Spark glue job step_trainer
+
+[spark-glue-job-step-trainer](./glue/step_trainer_trusted-etl-apark.py)
+
+![step_trainer_trusted_job](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%204.22.23%20a.m..png)
+
+
