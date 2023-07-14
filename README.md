@@ -80,7 +80,7 @@ Athena query result
 
 ![accelerometer_job_execution_job_trusted](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%208.34.07%20a.m..png)
 
-* Athena query result accelerometer
+* Athena query result accelerometer trusted
 
 ![Accelerometer_trusted](./image/accelerometer_trusted.png)
 
