@@ -15,7 +15,7 @@ job.init(args["JOB_NAME"], args)
 # Script generated for node accelerometer
 accelerometer_node1689323425510 = glueContext.create_dynamic_frame.from_catalog(
     database="camilo-lakehouse",
-    table_name="accelerometer_trusted",
+    table_name="accelerometer",
     transformation_ctx="accelerometer_node1689323425510",
 )
 
@@ -35,11 +35,24 @@ Join_node1689323436362 = Join.apply(
     transformation_ctx="Join_node1689323436362",
 )
 
+# Script generated for node Change Schema
+ChangeSchema_node1689341027042 = ApplyMapping.apply(
+    frame=Join_node1689323436362,
+    mappings=[
+        ("user", "string", "user", "string"),
+        ("timestamp", "long", "timestamp", "long"),
+        ("x", "double", "x", "double"),
+        ("y", "double", "y", "double"),
+        ("z", "double", "z", "double"),
+    ],
+    transformation_ctx="ChangeSchema_node1689341027042",
+)
+
 # Script generated for node AWS Glue Data Catalog
 AWSGlueDataCatalog_node1689324039218 = glueContext.write_dynamic_frame.from_catalog(
-    frame=Join_node1689323436362,
+    frame=ChangeSchema_node1689341027042,
     database="camilo-lakehouse",
-    table_name="customer_curated",
+    table_name="accelerometer_trusted",
     transformation_ctx="AWSGlueDataCatalog_node1689324039218",
 )
 

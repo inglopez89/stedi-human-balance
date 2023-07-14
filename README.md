@@ -65,7 +65,7 @@ Athena query result
 
 ### Customer glue job execution
 
-* Spark glue Job Customer
+* Spark glue Job Customer trusted
 [Spark_glue_job_customer_trusted](./glue/customer_trusted-etl-spark.py)
 
 ![Customer_job_execution](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%202.02.45%20a.m..png)
@@ -74,8 +74,18 @@ Athena query result
 
 ![customer trusted athena](./image/customer_trusted.png)
 
+* spark glue Job accelerometer trusted
 
-* Spark glue job customer trusted
+[spark_job_accelerometer_trusted](./glue/accelerometer_trusted.py)
+
+![accelerometer_job_execution_job_trusted](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%208.34.07%20a.m..png)
+
+* Athena query result accelerometer
+
+![Accelerometer_trusted](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%208.29.30%20a.m..png)
+
+
+* Spark glue job customer curated
 
 [Spark_glue_job_customer_curated](./glue/customer_curated-etl-spark.py)
 
