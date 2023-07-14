@@ -56,12 +56,12 @@ Athena query result
 
 * Accelerometer Landing
 
-![Accelerometer](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%201.21.53%20a.m..png)
+![Accelerometer](./image/accelerometer_landing.png)
 
 
 * Customer Landing
 
-![Customer](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%2011.16.59%20a.m..png)
+![Customer](./image/Customer_landing.png)
 
 Making distinct to field sharewithresearchofdate from table customer from landing
 
