@@ -59,7 +59,7 @@ Athena query result
 
 * Customer
 
-![Customer](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%201.25.05%20a.m..png)
+![Customer](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%2011.16.59%20a.m..png)
 
 ## Spark glue job for transfor customer from landing to trusted
 
