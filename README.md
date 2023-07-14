@@ -54,3 +54,17 @@ Athena query result
 * Customer
 
 ![Customer](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%201.25.05%20a.m..png)
+
+## Spark glue job for transfor customer from landing to trusted
+
+### Customer glue job execution
+
+* Spark glue Job Customer
+[Spark_glue_job](./glue/customer-etl-spark.py)
+
+![Customer_job_execution](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%202.02.45%20a.m..png)
+
+* Athena query result customer trusted
+
+![customer trusted athena](./image/Captura%20de%20Pantalla%202023-07-14%20a%20la(s)%203.07.41%20a.m..png)
+
